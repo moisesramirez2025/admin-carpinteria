@@ -17,6 +17,7 @@ function App() {
           <Route path="cotizaciones" element={<Cotizaciones />} />
           {/* Ruta /admin con subrutas */}
         <Route path="admin" element={<Admin />}>
+          <Route index element={<Cotizacion />} />
           <Route path="cotizacion" element={<Cotizacion />} />
           <Route path="addproductos" element={<Addproductos />} />
         </Route>

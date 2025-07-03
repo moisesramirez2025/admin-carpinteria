@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem" }} >
-      <h1>Productos de Carpintería</h1>
+      <h1>Panel de Productos </h1>
 
       <form onSubmit={handleSubmit} style={{ marginBottom: "2rem" }}>
         <input

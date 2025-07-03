@@ -32,3 +32,42 @@ button {
   color: white;
   cursor: pointer;
 }
+
+/* cliente */
+
+#title-c {
+  color: #017065;
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#product-list li {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink: 0;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 2px;
+  background-color: #dbe7f0;
+}
+
+#product-list li:hover {
+  background-color: #0457973d;
+  cursor: pointer;}

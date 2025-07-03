@@ -21,11 +21,11 @@ function vApp() {
   
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Productos</h1>
+      <h2 id="title-c" >Catálogo de Productos</h2>
 
      
 
-      <ul>
+      <ul id="product-list">
         {productos.map((p) => (
           <li key={p._id} style={{ marginBottom: "1rem" }}>
             <strong>{p.nombre}</strong> - ${p.precio}

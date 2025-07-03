@@ -33,6 +33,7 @@
   border-radius: 8px;
     background-color: #ffffff;
     width: 85vw;
+    overflow: auto;
     
     margin: 20px;
     padding: 10px;

@@ -14,7 +14,7 @@ function Cotizacion() {
    
   return (
     <div style={{ padding: "2rem" }}>
-      <h2>Cotizaciones</h2>
+      <h2>Solicitudes de Cotización</h2>
 
       <ul>
         {cotizaciones.map((c) => (
