@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+.nav1{
+  
+  display: flex;
+
+}
+
+.logo {
+  background-color: #017065;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  width: 15vw;
+}
+
+.navbar {
+  background-color: #009688;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+  flex: 1;
+}
+
+.navbar a {
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* .main-content { */
+  /*padding: 2rem;*/
+/* } */
