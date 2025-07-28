@@ -23,7 +23,7 @@ function ProductosPage() {
   return (
      <div style={{ padding: "2rem" }}>
       {/* Título de la página */}
-      <h2 id="title-c">Catálogo de Productos</h2>
+      <h2 id="title-c">Explora nuestro catalógo de productos</h2>
       {/* Componente que muestra la lista de productos */}
       <ListaProductos productos={productos} />
     </div>

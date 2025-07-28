@@ -4,7 +4,7 @@ function Layout() {
   return (
     <div>
       <div className="nav1">
-        <div className="logo"><p>Carpinteria-tal</p></div>
+        <div className="logo"><p>TuForma</p></div>
       <nav className="navbar">
         <Link to="/">Productos</Link>
         <Link to="/cotizaciones">Cotizaciones</Link>

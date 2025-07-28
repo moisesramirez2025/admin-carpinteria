@@ -1,5 +1,5 @@
 h1 {
-  color: #017065;
+  color: #000000;
   font-size: 2rem;
   margin: 1rem 0;
   text-align: center;
@@ -18,17 +18,17 @@ form {
 input,
 textarea {
   padding: 0.5rem;
-  border: 2px solid #009688;
+  border: 2px solid #000000;
   border-radius: 4px;
   background-color: white;
-  color: #009688;
+  color: #000000;
 }
 
 button {
   padding: 0.5rem;
   border: none;
   border-radius: 4px;
-  background-color: #009688;
+  background-color: #5A8BF4;
   color: white;
   cursor: pointer;
 }
@@ -36,7 +36,7 @@ button {
 /* cliente */
 
 #title-c {
-  color: #017065;
+  color: #000000;
   font-size: 2rem;
   margin: 1rem 0;
   text-align: center;
@@ -63,11 +63,36 @@ button {
   border: 1px solid #ccc;
   border-radius: 10px;
   width: 300px;
-  height: 300px;
+  height: 500px;
   margin: 2px;
-  background-color: #dbe7f0;
+  background-color: #ffffff;
 }
 
 #product-list li:hover {
-  background-color: #0457973d;
+  background-color: #7d80833d;
   cursor: pointer;}
+
+  #product-list li img {
+    width: 100%;
+    height: 50%;
+  }
+
+  #product-list li strong {
+    font-size: 1rem;
+  }
+
+  #Precio {
+    font-size: 2rem;
+
+
+  }
+
+  .opcionIten {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  
